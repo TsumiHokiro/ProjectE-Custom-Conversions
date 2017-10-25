@@ -2,6 +2,7 @@
 	"groups":	{
 		"blocks":	{
 			"conversions": [
+			/* Resource Blocks */
 				{
 					"count": 1,
 					"output": "Mekanism:BasicBlock|0",
@@ -46,54 +47,6 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:BasicBlock|6",
-					"ingredients":	{
-						"OD|circuitBasic": 1,
-						"OD|cobblestone": 8
-					}
-				},
-				{
-					"count": 9,
-					"output": "Mekanism:BasicBlock|7",
-					"ingredients":	{
-						"OD|ingotRefinedGlowstone": 1,
-						"OD|ingotRefinedObsidian": 8
-					}
-				},
-				{
-					"count": 1,
-					"output": "Mekanism:BasicBlock|8",
-					"ingredients":	{
-						"OD|ingotSteel": 4,
-						"OD|ingotOsmium": 1
-					}
-				},
-				{
-					"count": 4,
-					"output": "Mekanism:BasicBlock|9",
-					"ingredients":	{
-						"OD|ingotSteel": 4,
-						"minecraft:bucket|0": 1
-					}
-				},
-				{
-					"count": 4,
-					"output": "Mekanism:BasicBlock|10",
-					"ingredients":	{
-						"Mekanism:BasicBlock|9": 4,
-						"OD|blockGlass": 1
-					}
-				},
-				{
-					"count": 2,
-					"output": "Mekanism:BasicBlock|11",
-					"ingredients":	{
-						"Mekanism:BasicBlock|9": 4,
-						"OD|circuitBasic": 1
-					}
-				},
-				{
-					"count": 1,
 					"output": "Mekanism:BasicBlock|12",
 					"ingredients":	{
 						"OD|ingotCopper": 9
@@ -108,50 +61,33 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:BasicBlock|14",
+					"output": "Mekanism:SaltBlock|0",
 					"ingredients":	{
-						"Mekanism:BasicBlock|8": 2,
-						"OD|circuitBasic": 4,
-						"OD|blockCopper": 1,
-						"OD|paneGlass": 2
+						"Mekanism:Salt|0": 4
 					}
 				},
+				/* Tiered NBT Machines/Blocks */
+				/* The NBT implementation for 1.7.10 is not available so they're commented */
 				{
 					"count": 1,
-					"output": "Mekanism:BasicBlock|15",
+					"output": "Mekanism:BasicBlock|6",
 					"ingredients":	{
-						"Mekanism:BasicBlock|8": 1,
-						"OD|circuitBasic": 2,
-						"OD|ingotCopper": 4,
-						"Mekanism:BasicBlock|11": 2
+						"OD|circuitBasic": 1,
+						"OD|cobblestone": 5,
+						"OD|dustRedstone": 2
 					}
 				},
-				{
+				/* To do: Bins */
+				{ /* Induction Cell */
 					"count": 1,
-					"output": "Mekanism:BasicBlock2|0",
+					"output": "Mekanism:BasicBlock2|3",
 					"ingredients":	{
-						"Mekanism:BasicBlock|9": 1,
-						"OD|ingotCopper": 8
+						"Mekanism:EnergyCube|0": 1,
+						"Mekanism:EnergyTablet|0": 4,
+						"Mekanism:OtherDust|4": 4
 					}
 				},
-				{
-					"count": 4,
-					"output": "Mekanism:BasicBlock2|1",
-					"ingredients":	{
-						"OD|ingotSteel": 4,
-						"Mekanism:EnergyTablet|0": 1
-					}
-				},
-				
-				{
-					"count": 1,
-					"output": "Mekanism:BasicBlock2|2",
-					"ingredients":	{
-						"Mekanism:BasicBlock2|1": 4,
-						"OD|circuitElite": 1
-					}
-				},
-				{
+				/* {
 					"count": 1,
 					"output": "Mekanism:BasicBlock2|3@{tier:0}",
 					"ingredients":	{
@@ -186,8 +122,17 @@
 						"Mekanism:EnergyTablet|0": 4,
 						"Mekanism:BasicBlock2|3@{tier:2}": 4
 					}
+				}, */
+				{ /* Induction Provider */
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|4",
+					"ingredients":	{
+						"Mekanism:EnergyCube|0": 1,
+						"OD|circuitBasic": 4,
+						"Mekanism:OtherDust|4": 4
+					}
 				},
-				{
+				/*{
 					"count": 1,
 					"output": "Mekanism:BasicBlock2|4@{tier:0}",
 					"ingredients":	{
@@ -222,60 +167,79 @@
 						"OD|circuitUltimate": 4,
 						"Mekanism:BasicBlock2|4@{tier:2}": 4
 					}
-				},
-				{
+				},*/
+				{/* Fluid Tank */
 					"count": 1,
-					"output": "Mekanism:MachineBlock|0",
+					"output": "Mekanism:MachineBlock2|11",
 					"ingredients":	{
-						"Mekanism:BasicBlock|8": 1,
-						"OD|circuitBasic": 2,
+						"OD|ingotIron": 4,
+						"OD|dustRedstone": 4
+					}
+				},
+				/*{ To do Fluid Tanks },4*/
+				{/* Energy Cube*/
+					"count": 1,
+					"output": "Mekanism:EnergyCube|0",
+					"ingredients":	{
 						"OD|dustRedstone": 4,
-						"OD|ingotIron": 2
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:BasicBlock|8": 1
+					}
+				},
+				/*{
+					"count": 1,
+					"output": "Mekanism:EnergyCube|0@{tier:\"Basic\"}",
+					"ingredients":	{
+						"OD|dustRedstone": 4,
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|ingotIron": 2,
+						"Mekanism:BasicBlock|8": 1
 					}
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:MachineBlock|1",
+					"output": "Mekanism:EnergyCube|0@{tier:\"Advanced\"}",
 					"ingredients":	{
-						"Mekanism:BasicBlock|8": 1,
-						"OD|circuitAdvanced": 2,
 						"Mekanism:EnrichedAlloy|0": 4,
-						"minecraft:bucket|0": 2
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|ingotOsmium": 2,
+						"Mekanism:EnergyCube|0@{tier:\"Basic\"}": 1
 					}
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:MachineBlock|2",
+					"output": "Mekanism:EnergyCube|0@{tier:\"Elite\"}",
 					"ingredients":	{
-						"Mekanism:BasicBlock|8": 1,
 						"Mekanism:ReinforcedAlloy|0": 4,
-						"OD|circuitElite": 2,
-						"minecraft:cobblestone|0": 2
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|ingotGold": 2,
+						"Mekanism:EnergyCube|0@{tier:\"Advanced\"}": 1
 					}
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:MachineBlock|3",
+					"output": "Mekanism:EnergyCube|0@{tier:\"Ultimate\"}",
 					"ingredients":	{
-						"Mekanism:BasicBlock|8": 1,
-						"OD|dustRedstone": 4,
-						"OD|circuitBasic": 2,
-						"minecraft:lava_bucket|0": 2
+						"Mekanism:AtomicAlloy|0": 4,
+						"Mekanism:EnergyTablet|0": 2,
+						"OD|gemDiamond": 2,
+						"Mekanism:EnergyCube|0@{tier:\"Elite\"}": 1
 					}
-				},
-				{
+				},*/
+				
+				{ /* Gas Tanks */
 					"count": 1,
-					"output": "Mekanism:MachineBlock|4",
+					"output": "Mekanism:GasTank|0",
 					"ingredients":	{
-						"Mekanism:AtomicAlloy|0": 2,
-						"OD|circuitBasic": 1,
-						"Mekanism:MachineBlock|15": 2,
-						"Mekanism:Robit|0": 1,
-						"Mekanism:TeleportationCore|0": 2,
-						"Mekanism:BasicBlock2|0": 1
+						"OD|ingotOsmium": 4,
+						"OD|dustRedstone": 4
 					}
 				},
-				{
+				/*{To do Gas Tanks},*/
+												/* Factories */ 
+				// These will be jumped since there's no NBT implementation in 1.7.10 
+				/*{	Basic Factories
 					"count": 1,
 					"output": "Mekanism:MachineBlock|5@{recipeType: 0}",
 					"ingredients":	{
@@ -344,8 +308,8 @@
 						"OD|ingotIron": 2,
 						"Mekanism:MachineBlock2|3": 1
 					}
-				},
-				{
+				},*/
+				/*{ Advanced Factories
 					"count": 1,
 					"output": "Mekanism:MachineBlock|6@{recipeType: 0}",
 					"ingredients":	{
@@ -414,8 +378,8 @@
 						"OD|ingotOsmium": 2,
 						"Mekanism:MachineBlock|5@{recipeType: 6}": 1
 					}
-				},
-				{
+				},*/
+				/*{ Elite Factories
 					"count": 1,
 					"output": "Mekanism:MachineBlock|7@{recipeType: 0}",
 					"ingredients":	{
@@ -484,6 +448,180 @@
 						"OD|ingotGold": 2,
 						"Mekanism:MachineBlock|6@{recipeType: 6}": 1
 					}
+				},*/
+				/* Multiblock Structures' Blocks */
+				{
+					"count": 9,
+					"output": "Mekanism:BasicBlock|7",
+					"ingredients":	{
+						"OD|ingotRefinedGlowstone": 1,
+						"OD|ingotRefinedObsidian": 8
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:BasicBlock|9",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"minecraft:bucket|0": 1
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:BasicBlock|10",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"OD|blockGlass": 1
+					}
+				},
+				{
+					"count": 2,
+					"output": "Mekanism:BasicBlock|11",
+					"ingredients":	{
+						"Mekanism:BasicBlock|9": 4,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|14",
+					"ingredients":	{
+						"Mekanism:BasicBlock2|0": 5,
+						"OD|circuitAdvanced": 2,
+						"minecraft:bucket|0": 1,
+						"OD|paneGlass": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock|15",
+					"ingredients":	{
+						"Mekanism:BasicBlock2|0": 4,
+						"OD|circuitAdvanced": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|0",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"OD|ingotCopper": 1
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:BasicBlock2|1",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"Mekanism:EnergyTablet|0": 1
+					}
+				},
+				
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|2",
+					"ingredients":	{
+						"Mekanism:BasicBlock2|1": 4,
+						"OD|circuitElite": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|5",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"OD|dustRedstone": 4,
+						"OD|ingotCopper": 4
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|6",
+					"ingredients":	{
+						"Mekanism:EnrichedAlloy|0": 1,
+						"OD|ingotSteel": 4,
+						"minecraft:iron_bars|0": 4
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:BasicBlock2|7",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"OD|ingotIron": 1
+					}
+				},
+				{
+					"count": 2,
+					"output": "Mekanism:BasicBlock2|8",
+					"ingredients":	{
+						"Mekanism:BasicBlock2|7": 4,
+						"OD|circuitAdvanced": 1
+					}
+				},
+				/* Machines */
+				{
+					"count": 1,
+					"output": "Mekanism:BasicBlock2|9",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"OD|blockGlass": 1,
+						"Mekanism:TeleportationCore|0": 1,
+						"OD|circuitElite": 2,
+						"Mekanism:BasicBlock|8": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|0",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"OD|circuitBasic": 2,
+						"OD|dustRedstone": 4,
+						"OD|ingotIron": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|1",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"OD|circuitAdvanced": 2,
+						"Mekanism:EnrichedAlloy|0": 4,
+						"minecraft:bucket|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|2",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"Mekanism:ReinforcedAlloy|0": 4,
+						"OD|circuitElite": 2,
+						"minecraft:cobblestone|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|3",
+					"ingredients":	{
+						"Mekanism:BasicBlock|8": 1,
+						"OD|dustRedstone": 4,
+						"OD|circuitBasic": 2,
+						"minecraft:lava_bucket|0": 2
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock|4",
+					"ingredients":	{
+						"Mekanism:AtomicAlloy|0": 2,
+						"OD|circuitBasic": 1,
+						"Mekanism:MachineBlock|15": 2,
+						"Mekanism:Robit|0": 1,
+						"Mekanism:TeleportationCore|0": 2,
+						"Mekanism:BasicBlock2|0": 1
+					}
 				},
 				{
 					"count": 1,
@@ -538,9 +676,10 @@
 					"count": 1,
 					"output": "Mekanism:MachineBlock|13",
 					"ingredients":	{
-						"minecraft:piston|0": 1,
+						"OD|chestWood": 2,
 						"OD|circuitBasic": 1,
-						"OD|ingotIron": 7
+						"OD|ingotSteel": 5,
+						"OD|blockGlass": 1
 					}
 				},
 				{
@@ -549,16 +688,15 @@
 					"ingredients":	{
 						"minecraft:stone_pressure_plate|0": 3,
 						"OD|ingotSteel": 2,
-						"Mekanism:EnergyTablet|0": 2
+						"Mekanism:EnergyTablet|0": 1
 					}
 				},
 				{
 					"count": 1,
 					"output": "Mekanism:MachineBlock|15",
 					"ingredients":	{
-						"OD|chestWood": 2,
-						"OD|blockGlass": 1,
-						"OD|ingotSteel": 5,
+						"OD|craftingPiston": 1,
+						"OD|ingotIron": 7,
 						"OD|circuitBasic": 1
 					}
 				},
@@ -569,7 +707,7 @@
 						"OD|circuitBasic": 2,
 						"OD|blockGlass": 4,
 						"Mekanism:EnergyTablet|0": 1,
-						"Mekanism:GasTank|100@{}": 1,
+						"Mekanism:GasTank|0": 1,
 						"Mekanism:MachineBlock2|11": 1
 					}
 				},
@@ -580,7 +718,7 @@
 						"OD|circuitBasic": 2,
 						"Mekanism:EnrichedAlloy|0": 4,
 						"Mekanism:BasicBlock|9": 1,
-						"Mekanism:GasTank|100@{}": 1,
+						"Mekanism:GasTank|0": 1,
 						"Mekanism:MachineBlock|13": 1
 					}
 				},
@@ -591,7 +729,7 @@
 						"OD|circuitBasic": 2,
 						"Mekanism:EnrichedAlloy|0": 4,
 						"Mekanism:BasicBlock|9": 1,
-						"Mekanism:GasTank|100@{}": 2
+						"Mekanism:GasTank|0": 2
 					}
 				},
 				{
@@ -630,7 +768,7 @@
 					"ingredients":	{
 						"Mekanism:EnrichedAlloy|0": 2,
 						"Mekanism:AtomicAlloy|0": 1,
-						"Mekanism:GasTank|100@{}": 2,
+						"Mekanism:GasTank|0": 2,
 						"OD|circuitBasic": 4
 					}
 				},
@@ -640,7 +778,7 @@
 					"ingredients":	{
 						"Mekanism:EnrichedAlloy|0": 2,
 						"Mekanism:MachineBlock|8": 1,
-						"Mekanism:GasTank|100@{}": 1,
+						"Mekanism:GasTank|0": 1,
 						"OD|circuitBasic": 4,
 						"minecraft:bucket|0": 1
 					}
@@ -651,7 +789,7 @@
 					"ingredients":	{
 						"Mekanism:AtomicAlloy|0": 2,
 						"Mekanism:MachineBlock|8": 1,
-						"Mekanism:GasTank|100@{}": 2,
+						"Mekanism:GasTank|0": 2,
 						"OD|circuitBasic": 4
 					}
 				},
@@ -671,18 +809,9 @@
 					"ingredients":	{
 						"OD|circuitBasic": 2,
 						"Mekanism:EnrichedAlloy|0": 1,
-						"Mekanism:GasTank|100@{}": 2,
+						"Mekanism:GasTank|0": 2,
 						"Mekanism:BasicBlock|9": 1,
 						"Mekanism:BasicBlock|0": 1
-					}
-				},
-				{
-					"count": 1,
-					"output": "Mekanism:MachineBlock2|11",
-					"ingredients":	{
-						"OD|blockGlass": 2,
-						"OD|ingotIron": 6,
-						"OD|circuitBasic": 1
 					}
 				},
 				{
@@ -710,7 +839,7 @@
 					"ingredients":	{
 						"OD|ingotSteel": 7,
 						"OD|gemDiamond": 1,
-						"Mekanism:EnergyCube|0@{tier: \"Basic\"}": 1
+						"Mekanism:EnergyCube|0": 1
 					}
 				},
 				{
@@ -719,6 +848,16 @@
 					"ingredients":	{
 						"Mekanism:MachineBlock2|14": 1,
 						"Mekanism:MachineBlock|13": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock3|0",
+					"ingredients":	{
+						"OD|ingotRefinedObsidian": 4,
+						"OD|circuitUltimate": 2,
+						"Mekanism:AtomicAlloy|0": 2,
+						"Mekanism:TeleportationCore|0": 1
 					}
 				},
 				{
@@ -744,42 +883,33 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:EnergyCube|0@{tier:\"Basic\"}",
+					"output": "Mekanism:MachineBlock3|4",
 					"ingredients":	{
-						"OD|dustRedstone": 4,
-						"Mekanism:EnergyTablet|0": 2,
-						"OD|ingotIron": 2,
+						"Mekanism:BasicBlock2|5": 1,
+						"OD|dustRedstone": 3,
+						"OD|ingotTin": 4,
+						"Mekanism:EnergyTablet|0": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MachineBlock3|5",
+					"ingredients":	{
+						"minecraft:crafting_table": 1,
+						"OD|chestWood": 1,
+						"OD|ingotSteel": 4,
+						"OD|circuitBasic": 2,
 						"Mekanism:BasicBlock|8": 1
 					}
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:EnergyCube|0@{tier:\"Advanced\"}",
+					"output": "Mekanism:MachineBlock3|6",
 					"ingredients":	{
-						"Mekanism:EnrichedAlloy|0": 4,
-						"Mekanism:EnergyTablet|0": 2,
-						"OD|ingotOsmium": 2,
-						"Mekanism:EnergyCube|0@{tier:\"Basic\"}": 1
-					}
-				},
-				{
-					"count": 1,
-					"output": "Mekanism:EnergyCube|0@{tier:\"Elite\"}",
-					"ingredients":	{
-						"Mekanism:ReinforcedAlloy|0": 4,
-						"Mekanism:EnergyTablet|0": 2,
-						"OD|ingotGold": 2,
-						"Mekanism:EnergyCube|0@{tier:\"Advanced\"}": 1
-					}
-				},
-				{
-					"count": 1,
-					"output": "Mekanism:EnergyCube|0@{tier:\"Ultimate\"}",
-					"ingredients":	{
-						"Mekanism:AtomicAlloy|0": 4,
-						"Mekanism:EnergyTablet|0": 2,
-						"OD|gemDiamond": 2,
-						"Mekanism:EnergyCube|0@{tier:\"Elite\"}": 1
+						"OD|ingotSteel": 5,
+						"minecraft:furnace|0": 2,
+						"OD|circuitBasic": 1,
+						"Mekanism:BasicBlock|8": 1
 					}
 				},
 				{
@@ -792,31 +922,9 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:GasTank|100@{}",
-					"ingredients":	{
-						"OD|ingotOsmium": 8,
-						"OD|dustIron": 1
-					}
-				},
-				{
-					"count": 1,
 					"output": "Mekanism:CardboardBox|0",
 					"ingredients":	{
-						"OD|dustWood": 4
-					}
-				},
-				{
-					"count": 4,
-					"output": "Mekanism:PlasticBlock|15",
-					"ingredients":	{
-						"Mekanism:Polyethene|2": 8
-					}
-				},
-				{
-					"count": 1,
-					"output": "Mekanism:SaltBlock|0",
-					"ingredients":	{
-						"Mekanism:Salt|0": 4
+						"Mekanism:Sawdust|0": 4
 					}
 				},
 				{
@@ -829,7 +937,55 @@
 						"Mekanism:MachineBlock|13": 1,
 						"Mekanism:AtomicAlloy|0": 1
 					}
-				}
+				},
+				/* Cosmetic Blocks */
+				{
+					"count": 4,
+					"output": "Mekanism:PlasticBlock|*",
+					"ingredients":	{
+						"Mekanism:Polyethene|2": 8,
+						"OD|dyeWhite": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:SlickPlasticBlock|*",
+					"ingredients":	{
+						"Mekanism:PlasticBlock|*": 1
+					}
+				},
+				{
+					"count": 3,
+					"output": "Mekanism:GlowPlasticBlock|*",
+					"ingredients":	{
+						"Mekanism:PlasticBlock|*": 3,
+						"OD|dustGlowstone": 1
+					}
+				},
+				{
+					"count": 4,
+					"output": "Mekanism:ReinforcedPlasticBlock|*",
+					"ingredients":	{
+						"Mekanism:PlasticBlock|*": 4,
+						"OD|dustOsmium": 1
+					}
+				},
+				{
+					"count": 3,
+					"output": "Mekanism:RoadPlasticBlock|*",
+					"ingredients":	{
+						"Mekanism:PlasticBlock|*": 3,
+						"OD|sand": 6
+					}
+				},
+				{
+					"count": 3,
+					"output": "Mekanism:PlasticFence|*",
+					"ingredients":	{
+						"Mekanism:PlasticBlock|*": 4,
+						"Mekanism:Polyethene|3": 2
+					}
+				},
 			]
 		},
 		"ingots":	{
@@ -852,7 +1008,7 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:Ingot|4",
+					"output": "OD|ingotSteel",
 					"ingredients":	{
 						"Mekanism:OtherDust|1": 1
 					}
@@ -919,7 +1075,7 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:OtherDust|1",
+					"output": "OD|dustSteel",
 					"ingredients":	{
 						"Mekanism:EnrichedIron|0": 1,
 						"minecraft:coal|1": 1
@@ -940,16 +1096,16 @@
 					}
 				},
 				{
-					"count": 1,
+					"count": 8,
 					"output": "Mekanism:OtherDust|5",
 					"ingredients":	{
-						"OD|dustObsidian": 1,
-						"OD|dustDiamond": 1
+						"OD|dustObsidian": 8,
+						"Mekanism:CompressedDiamond|0": 1
 					}
 				},
 				{
-					"count": 2,
-					"output": "Mekanism:OtherDust|6",
+					"count": 6,
+					"output": "OD|dustObsidian",
 					"ingredients":	{
 						"OD|blockObsidian": 1
 					}
@@ -962,18 +1118,27 @@
 			"conversions":	[
 				{
 					"count": 1,
-					"output": "Mekanism:ControlCircuit|0",
+					"output": "Mekanism:BasicBlock|8",
 					"ingredients":	{
+						"OD|ingotSteel": 4,
 						"OD|ingotOsmium": 1,
-						"OD|dustRedstone": 1
+						"OD|blockGlass": 4
 					}
 				},
 				{
-					"count": 1,
+					"count": 8,
+					"output": "Mekanism:ControlCircuit|0",
+					"ingredients":	{
+						"OD|ingotOsmium": 8,
+						"OD|CompressedRedstone|0": 1
+					}
+				},
+				{
+					"count": 8,
 					"output": "Mekanism:EnrichedIron|0",
 					"ingredients":	{
-						"minecraft:coal|1": 1,
-						"OD|ingotIron": 1
+						"Mekanism:CompressedRedstone|0": 1,
+						"OD|ingotIron": 8
 					}
 				},
 				{
@@ -986,11 +1151,11 @@
 					}
 				},
 				{
-					"count": 1,
+					"count": 8,
 					"output": "Mekanism:EnrichedAlloy|0",
 					"ingredients":	{
-						"OD|ingotIron": 1,
-						"OD|dustRedstone": 1
+						"OD|ingotIron": 8,
+						"Mekanism:CompressedRedstone|0": 1
 					}
 				},
 				{
@@ -1002,11 +1167,11 @@
 					}
 				},
 				{
-					"count": 1,
+					"count": 8,
 					"output": "Mekanism:ReinforcedAlloy|0",
 					"ingredients":	{
-						"Mekanism:OtherDust|0": 1,
-						"Mekanism:EnrichedAlloy|0": 1
+						"Mekanism:CompressedDiamond|0": 1,
+						"Mekanism:EnrichedAlloy|0": 8
 					}
 				},
 				{
@@ -1026,11 +1191,11 @@
 					}
 				},
 				{
-					"count": 1,
+					"count": 8,
 					"output": "Mekanism:AtomicAlloy|0",
 					"ingredients":	{
-						"OD|dustRefinedObsidian": 1,
-						"Mekanism:ReinforcedAlloy|0": 1
+						"Mekanism:CompressedObsidian|0": 1,
+						"Mekanism:ReinforcedAlloy|0": 8
 					}
 				},
 				{
@@ -1162,12 +1327,12 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:Jetpack|0@{}",
+					"output": "Mekanism:Jetpack|0",
 					"ingredients":	{
 						"OD|ingotTin": 3,
 						"OD|ingotSteel": 2,
 						"OD|circuitBasic": 1,
-						"Mekanism:GasTank|100@{}": 1
+						"Mekanism:GasTank|0": 1
 					}
 				},
 				{
@@ -1181,7 +1346,7 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:ScubaTank|0@{}",
+					"output": "Mekanism:ScubaTank|0",
 					"ingredients":	{
 						"Mekanism:EnrichedAlloy|0": 2,
 						"OD|ingotSteel": 3,
@@ -1199,9 +1364,9 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:ArmoredJetpack|0@{}",
+					"output": "Mekanism:ArmoredJetpack|0",
 					"ingredients":	{
-						"Mekanism:Jetpack|0@{}": 1,
+						"Mekanism:Jetpack|0": 1,
 						"OD|dustDiamond": 2,
 						"OD|ingotCopper": 2,
 						"OD|blockSteel": 1
@@ -1226,21 +1391,37 @@
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:Flamethrower|0@{}",
+					"output": "Mekanism:Flamethrower|0",
 					"ingredients":	{
 						"OD|ingotTin": 4,
 						"OD|ingotCopper": 2,
 						"OD|circuitAdvanced": 1,
-						"Mekanism:GasTank|100@{}": 1,
+						"Mekanism:GasTank|0": 1,
 						"minecraft:flint_and_steel|0": 1
 					}
 				},
 				{
 					"count": 1,
-					"output": "Mekanism:GaugeDropper|0@{}",
+					"output": "Mekanism:GaugeDropper|0",
 					"ingredients":	{
 						"OD|ingotOsmium": 1,
 						"OD|paneGlass": 5
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:CraftingFormula|0",
+					"ingredients":	{
+						"minecraft:paper|0": 1,
+						"OD|circuitBasic": 1
+					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:ConfigurationCard|0",
+					"ingredients": 	{
+						"Mekanism:EnrichedAlloy|0": 4,
+						"OD|circuitBasic": 1
 					}
 				}
 			]
@@ -1402,6 +1583,38 @@
 						"minecraft:iron_bars|0": 1,
 						"OD|dustRedstone": 6
 					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|18",
+					"ingredients":	{
+						"OD|ingotCopper": 1,
+						"OD|ingotSteel": 2
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|19",
+					"ingredients":	{
+						"Mekanism:PartTransmitter|18": 8,
+						"Mekanism:EnrichedAlloy|0": 1
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|20",
+					"ingredients":	{
+						"Mekanism:PartTransmitter|19": 8,
+						"Mekanism:ReinforcedAlloy|0": 1
+					}
+				},
+				{
+					"count": 8,
+					"output": "Mekanism:PartTransmitter|21",
+					"ingredients":	{
+						"Mekanism:PartTransmitter|20": 8,
+						"Mekanism:AtomicAlloy|0": 1
+					}
 				}
 			]
 		},
@@ -1442,6 +1655,15 @@
 						"OD|dustIron": 1,
 						"Mekanism:EnrichedAlloy|0": 2
 					}
+				},
+				{
+					"count": 1,
+					"output": "Mekanism:MufflingUpgrade|0",
+					"ingredients":	{
+						"OD|blockGlass": 2,
+						"OD|dustSteel": 1,
+						"Mekanism:EnrichedAlloy|0": 2
+						}
 				},
 				{
 					"count": 1,
@@ -1565,6 +1787,65 @@
 						"Mekanism:EnrichedAlloy|0": 1,
 						"Mekanism:EnergyTablet|0": 2
 					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|7",
+					"ingredients":	{
+						"OD|ingotSteel": 6,
+						"Mekanism:EnrichedAlloy|0": 3
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|8",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"Mekanism:EnrichedAlloy|0": 3,
+						"OD|circuitAdvanced": 2
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|9",
+					"ingredients":	{
+						"OD|ingotGold": 4,
+						"OD|ingotSteel": 4,
+						"Mekanism:EnergyTablet|0": 1
+					}
+				},{
+					"count": 4,
+					"output": "MekanismGenerators:Generator|10",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"OD|ingotOsmium": 1
+					}
+				},{
+					"count": 2,
+					"output": "MekanismGenerators:Generator|11",
+					"ingredients":	{
+						"MekanismGenerators:Generator|10": 4,
+						"OD|circuitAdvanced": 1
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|12",
+					"ingredients":	{
+						"MekanismGenerators:Generator|10": 4,
+						"minecraft:iron_bars|0": 1
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:Generator|13",
+					"ingredients":	{
+						"OD|ingotTin": 4,
+						"OD|ingotSteel": 4,
+						"minecraft:bucket|0": 1
+					}
+				},{
+					"count": 1,
+					"output": "MekanismGenerators:TurbineBlade|0",
+					"ingredients":	{
+						"OD|ingotSteel": 4,
+						"Mekanism:EnrichedAlloy|0": 1
+					}
 				}
 			]
 		},
@@ -1576,7 +1857,7 @@
 					"ingredients":	{
 						"OD|paneGlass": 1,
 						"OD|circuitUltimate": 2,
-						"Mekanism:GasTank|100@{}": 1,
+						"Mekanism:GasTank|0": 1,
 						"MekanismGenerators:Reactor|1": 5
 					}
 				},
@@ -1621,11 +1902,11 @@
 					}
 				},
 				{
-					"count": 1,
-					"output": "MekanismGenerators:Hohlraum|0@{}",
+					"count": 8,
+					"output": "MekanismGenerators:Hohlraum|0",
 					"ingredients":	{
-						"OD|dustGold": 4,
-						"minecraft:coal|1": 1
+						"OD|dustGold": 32,
+						"Mekanism:CompressedCarbon|0": 1
 					}
 				}
 			]
@@ -2110,7 +2391,9 @@
 			"FLUID|brine": 1,
 			"FLUID|heavywater": 1,
 			"Mekanism:Polyethene|1": 2,
-			"Mekanism:Polyethene|2": 4
+			"Mekanism:Polyethene|2": 4,
+			"OD|dustWood": 2
+
 		},
 		"after":	{
 			
