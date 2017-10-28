@@ -1,8 +1,7 @@
 {
 	"groups":	{
-		"blocks":	{
+		"Resource Blocks":	{
 			"conversions": [
-			/* Resource Blocks */
 				{
 					"count": 1,
 					"output": "Mekanism:BasicBlock|0",
@@ -65,9 +64,12 @@
 					"ingredients":	{
 						"Mekanism:Salt|0": 4
 					}
-				},
-				/* Tiered NBT Machines/Blocks */
-				/* The NBT implementation for 1.7.10 is not available so they're commented */
+				}
+			]
+		},
+		"Tiered NBT Machines and Blocks":	{
+			"comment": "The NBT implementation for 1.7.10 is not available so they're commented",
+			"conversions": [
 				{
 					"count": 1,
 					"output": "Mekanism:BasicBlock|6",
@@ -78,7 +80,7 @@
 					}
 				},
 				/* To do: Bins */
-				{ /* Induction Cell */
+				{/* Induction Cell */
 					"count": 1,
 					"output": "Mekanism:BasicBlock2|3",
 					"ingredients":	{
@@ -87,7 +89,7 @@
 						"Mekanism:OtherDust|4": 4
 					}
 				},
-				/* {
+				/*{
 					"count": 1,
 					"output": "Mekanism:BasicBlock2|3@{tier:0}",
 					"ingredients":	{
@@ -123,7 +125,7 @@
 						"Mekanism:BasicBlock2|3@{tier:2}": 4
 					}
 				}, */
-				{ /* Induction Provider */
+				{/* Induction Provider */
 					"count": 1,
 					"output": "Mekanism:BasicBlock2|4",
 					"ingredients":	{
@@ -227,7 +229,6 @@
 						"Mekanism:EnergyCube|0@{tier:\"Elite\"}": 1
 					}
 				},*/
-				
 				{ /* Gas Tanks */
 					"count": 1,
 					"output": "Mekanism:GasTank|0",
@@ -237,7 +238,7 @@
 					}
 				},
 				/*{To do Gas Tanks},*/
-												/* Factories */ 
+				/* Factories */ 
 				// These will be jumped since there's no NBT implementation in 1.7.10 
 				/*{	Basic Factories
 					"count": 1,
@@ -448,8 +449,13 @@
 						"OD|ingotGold": 2,
 						"Mekanism:MachineBlock|6@{recipeType: 6}": 1
 					}
+				}
+				]
 				},*/
-				/* Multiblock Structures' Blocks */
+				]
+			},
+		"Multiblock-Structure Blocks":	{
+			"conversions": [
 				{
 					"count": 9,
 					"output": "Mekanism:BasicBlock|7",
@@ -516,7 +522,6 @@
 						"Mekanism:EnergyTablet|0": 1
 					}
 				},
-				
 				{
 					"count": 1,
 					"output": "Mekanism:BasicBlock2|2",
@@ -559,7 +564,10 @@
 						"OD|circuitAdvanced": 1
 					}
 				},
-				/* Machines */
+			]
+			},
+		"Machines":	{
+			"conversions":[
 				{
 					"count": 1,
 					"output": "Mekanism:BasicBlock2|9",
@@ -938,7 +946,10 @@
 						"Mekanism:AtomicAlloy|0": 1
 					}
 				},
-				/* Cosmetic Blocks */
+			]
+			},
+		"Cosmetic Blocks":	{
+				"conversions": [
 				{
 					"count": 4,
 					"output": "Mekanism:PlasticBlock|*",
@@ -987,7 +998,7 @@
 					}
 				},
 			]
-		},
+			},
 		"ingots":	{
 			"conversions": [
 				{
@@ -1014,8 +1025,8 @@
 					}
 				}
 			]
-		},
-		"dust":{
+			},
+		"dust":	{
 			"conversions":	[
 				{
 					"count": 1,
@@ -1112,9 +1123,8 @@
 				}
 				
 			]
-			
-		},
-		"crafting components":{
+			},
+		"crafting components":	{
 			"conversions":	[
 				{
 					"count": 1,
@@ -1257,8 +1267,8 @@
 					}
 				}
 			]
-		},
-		"Tools": {
+			},
+		"Tools":	{
 			"conversions":	[
 				{
 					"count": 1,
@@ -1425,8 +1435,8 @@
 					}
 				}
 			]
-		},
-		"Fluids": {
+			},
+		"Fluids":	{
 			"conversions":	[
 				{
 					"count": 1,
@@ -1436,8 +1446,8 @@
 					}
 				}
 			]
-		},
-		"cables-pipes-tubes-transporters": {
+			},
+		"cables-pipes-tubes-transporters":	{
 			"conversions": [
 				{
 					"count": 8,
@@ -1617,8 +1627,8 @@
 					}
 				}
 			]
-		},
-		"Upgrades": {
+			},
+		"Upgrades":	{
 			"conversions": [
 				{
 					"count": 1,
@@ -1696,8 +1706,8 @@
 					}
 				}
 			]
-		},
-		"Compressed": {
+			},
+		"Compressed":	{
 			"conversions": [
 				{
 					"count": 1,
@@ -1728,8 +1738,8 @@
 					}
 				}
 			]
-		},
-		"Generators": {
+			},
+		"Generators":	{
 			"conversions": [
 				{
 					"count": 1,
@@ -1848,8 +1858,8 @@
 					}
 				}
 			]
-		},
-		"Reactor": {
+			},
+		"Reactor":	{
 			"conversions": [
 				{
 					"count": 1,
@@ -1910,8 +1920,8 @@
 					}
 				}
 			]
-		},
-		"MekanismTools": {
+			},
+		"MekanismTools":	{
 			"conversions": [
 				{
 					"count": 1,
@@ -2384,8 +2394,8 @@
 					}
 				}
 			]
-		}
-	},	
+			}
+	},
 	"values":	{
 		"before":	{
 			"FLUID|brine": 1,
@@ -2393,13 +2403,12 @@
 			"Mekanism:Polyethene|1": 2,
 			"Mekanism:Polyethene|2": 4,
 			"OD|dustWood": 2
-
-		},
+			},
 		"after":	{
 			
-		},
-		"conversion": [
+			},
+		"conversion":	[
 			
-		]
+			]
 	}
 }
