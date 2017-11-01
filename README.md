@@ -2,7 +2,10 @@
 Custom conversion values I've typed out for ProjectE.
 
 Currently done:
-ExtraCells, Mekanism(must use ProjectE's NBT branch. Must also disble dust blacklisting in the Mapper.cfg file.)
+ExtraCells, Mekanism(Must also disable dust blacklisting in the Mapper.cfg file.), Applied Energistics 2.
+
+Planned:
+RotaryCraft, ReactorCraft, Electricraft, Thermal Expansion (Liquids, Ducts, etc)
 
 Installation: Just stick JSON files in your config/ProjectE/customConversions folder.
 
