@@ -1075,8 +1075,8 @@
         }
         ]
       },
-        "machines": {
-        "conversions": [
+    "machines": {
+      "conversions": [
           {
           "c": 1,
           "o": "appliedenergistics2:tile.BlockGrinder|0",
@@ -1534,7 +1534,14 @@
           "i": {
             "appliedenergistics2:tile.BlockQuartzPillar|0": 3
           }
-        }
+        },
+		{
+		  "c": 1,
+		  "o": "appliedenergistics2:item.ItemMultiMaterial|21",
+		  "i": {
+		    "OD|ingotIron": 1
+		  }
+		}
       ]
     },
     "tools": {
@@ -1954,8 +1961,8 @@
         }
         ]
       },
-      "cards": {
-        "conversions": [
+    "cards": {
+      "conversions": [
           {
           "c": 1,
           "o": "appliedenergistics2:item.ItemMultiMaterial|26",

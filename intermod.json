@@ -32,23 +32,33 @@
         }
       ]
     },
-	"appliedenergistics2": {
-	  "conversions": [
-	    { /* Any Copper Mod */
-		  "c": 3,
-		  "o": "appliedenergistics2:item.ItemMultiPart|120",
-		  "i": {
-		    "OD|ingotCopper": 1
-		  }
+    "appliedenergistics2": {
+      "conversions": [
+        { /* Any Copper Mod */
+          "c": 3,
+          "o": "appliedenergistics2:item.ItemMultiPart|120",
+          "i": {
+            "OD|ingotCopper": 1
+          }
         },
-		{ /* Chromaticraft Furnace */
+        { /* Chromaticraft Furnace */
           "c": 2,
           "o": "appliedenergistics2:tile.BlockSkyStone|1",
           "i": {
             "appliedenergistics2:tile.BlockSkyStone|0": 1
           }
         }
-	  ]
+      ]
+    },
+    "flowers":{
+    "conversions": [
+        {
+          "c": 1,
+          "o": "OD|flower",
+          "i": {
+            "minecraft:yellow_flower":1}
+        }
+      ]
     }
   }
 }
