@@ -903,7 +903,7 @@
           "count": 1,
           "output": "Mekanism:MachineBlock3|5",
           "ingredients": {
-            "minecraft:crafting_table": 1,
+            "minecraft:crafting_table|0": 1,
             "OD|chestWood": 1,
             "OD|ingotSteel": 4,
             "OD|circuitBasic": 2,
@@ -1877,7 +1877,7 @@
           "output": "Mekanism:ControlCircuit|0",
           "ingredients": {
             "OD|ingotOsmium": 8,
-            "OD|CompressedRedstone|0": 1
+            "Mekanism:CompressedRedstone|0": 1
           }
         },
         {
@@ -2117,14 +2117,6 @@
             "OD|dustDiamond": 2,
             "OD|ingotCopper": 2,
             "OD|blockSteel": 1
-          }
-        },
-        {
-          "count": 1,
-          "output": "Mekanism:FilterCard|0",
-          "ingredients": {
-            "Mekanism:EnrichedAlloy|0": 4,
-            "OD|circuitBasic": 1
           }
         },
         {
