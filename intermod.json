@@ -51,14 +51,22 @@
       ]
     },
     "flowers":{
-    "conversions": [
+      "conversions": [
         {
           "c": 1,
           "o": "OD|flower",
           "i": {
-            "minecraft:yellow_flower":1}
+            "minecraft:yellow_flower":1
+          }
         }
       ]
+    }
+  },
+  "values": {
+    "before": {
+      "OD|dustSalt": 32
+    },
+    "after": {
     }
   }
 }
