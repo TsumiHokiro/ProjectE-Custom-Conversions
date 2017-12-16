@@ -331,7 +331,7 @@
           "c": 1,
           "o": "appliedenergistics2:item.ItemMultiMaterial|47",
           "i": {
-            "OD|stone": 256000
+            "minecraft:glass_pane|0": 256000
           }
         },
         {
