@@ -40,13 +40,6 @@
           "i": {
             "OD|ingotCopper": 1
           }
-        },
-        { /* Chromaticraft Furnace */
-          "c": 2,
-          "o": "appliedenergistics2:tile.BlockSkyStone|1",
-          "i": {
-            "appliedenergistics2:tile.BlockSkyStone|0": 1
-          }
         }
       ]
     },
@@ -56,7 +49,7 @@
           "c": 1,
           "o": "OD|flower",
           "i": {
-            "minecraft:yellow_flower":1
+            "minecraft:yellow_flower|0":1
           }
         }
       ]
