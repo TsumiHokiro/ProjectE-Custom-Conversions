@@ -210,11 +210,7 @@
             "OD|dustBlaze": 1,
             "OD|sand": 36
           }
-        }
-      ]
-    },
-    "stand-alones": {
-      "conversions": [
+        },
         {
           "c": 1,
           "o": "RotaryCraft:rotarycraft_item_yeast|0",
@@ -224,6 +220,232 @@
             "FLUID|water": 1000
           }
         }
+      ]
+    },
+    "tools": {
+      "conversions": [
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedpick|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedaxe|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedshovel|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedhelm|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 5
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedchest|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 8
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedlegs|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 7
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedboots|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 4
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedpack|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_jetpack|0": 1,
+            "RotaryCraft:rotarycraft_item_bedchest|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_strongcoil|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|9": 4,
+            "RotaryCraft:rotarycraft_item_powders|4": 2,
+            "OD|gemDiamond": 2,
+            "RotaryCraft:rotarycraft_item_spring|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedjump|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_jump|0": 1,
+            "RotaryCraft:rotarycraft_item_bedboots|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedhoe|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedsword|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedshears|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedsickle|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedgrafter|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_compacts|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_bedsaw|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 3,
+            "OD|ingotIron": 2,
+            "RotaryCraft:rotarycraft_item_compacts|3": 2
+          }
+        }
+      ]
+    },
+    "Machines": {
+      "conversions": [
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_machine|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 1,
+            "RotaryCraft:rotarycraft_item_compacts|5": 2,
+            "OD|gemDiamond": 2,
+            "OD|obsidian": 1
+          }
+        },
+        {
+          //Adjust to your difficulty
+          "c": 4,
+          "o": "RotaryCraft:rotarycraft_item_machine|4",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 5,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|4": 1
+          }
+        },
+        {
+          //Adjust to your difficulty
+          "c": 2,
+          "o": "RotaryCraft:rotarycraft_item_machine|6",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|4": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_machine|7",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4,
+            "RotaryCraft:rotarycraft_item_enginecraft|0": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4
+          }
+        },
+        {
+          //In case you have tin
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_machine|7",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4,
+            "RotaryCraft:rotarycraft_item_enginecraft|0": 1,
+            "OD|ingotTin": 4
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_machine|8",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 1,
+            "OD|ingotGold": 1,
+            "OD|ingotIron": 2,
+            "OD|blockGlass": 1,
+            "OD|obsidian": 2,
+            "OD|glowstone": 1
+          }
+        },
+        {
+          //In case you have silver and copper
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_machine|8",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 1,
+            "OD|ingotCopper": 1,
+            "OD|ingotSilver": 2,
+            "OD|blockGlass": 1,
+            "OD|obsidian": 2,
+            "OD|glowstone": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_machine|9",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "OD|dustRedstone": 1
+          }
+        }
+      ]
+    },
+    "Upgrades": {
+      "conversions": [
       ]
     }
   },
