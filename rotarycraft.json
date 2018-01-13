@@ -1828,6 +1828,308 @@
           }
         }
       ]
+    },
+    "Shafts": {
+      "conversions": [
+        {
+          "c": 8,
+          "o": "RotaryCraft:rotarycraft_item_shaft|0",
+          "i": {
+            "OD|plankWood": 5,
+            "OD|stickWood": 1
+          }
+        },
+        {
+          "c": 8,
+          "o": "RotaryCraft:rotarycraft_item_shaft|1",
+          "i": {
+            "minecraft:stone_slab|0": 5,
+            "RotaryCraft:rotarycraft_item_borecraft|13": 1
+          }
+        },
+        {
+          "c": 8,
+          "o": "RotaryCraft:rotarycraft_item_shaft|2",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1
+          }
+        },
+        {
+          "c": 8,
+          "o": "RotaryCraft:rotarycraft_item_shaft|3",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_borecraft|14": 1
+          }
+        },
+        {
+          "c": 8,
+          "o": "RotaryCraft:rotarycraft_item_shaft|4",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_borecraft|15": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_shaft|5",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1
+          }
+        }
+      ]
+    },
+    "gears": {
+      "conversions": [
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|0",
+          "i": {
+            "OD|plankWood": 5,
+            "RotaryCraft:rotarycraft_item_gearunits|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|1",
+          "i": {
+            "minecraft:stone_slab|0": 5,
+            "RotaryCraft:rotarycraft_item_gearunits|4": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|2",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|5": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|3",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_gearunits|8": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|4",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_gearunits|12": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|5",
+          "i": {
+            "OD|plankWood": 5,
+            "RotaryCraft:rotarycraft_item_gearunits|1": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|6",
+          "i": {
+            "minecraft:stone_slab|0": 5,
+            "RotaryCraft:rotarycraft_item_gearunits|5": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|7",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|6": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|8",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_gearunits|9": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|9",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_gearunits|13": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|10",
+          "i": {
+            "OD|plankWood": 5,
+            "RotaryCraft:rotarycraft_item_gearunits|2": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|11",
+          "i": {
+            "minecraft:stone_slab|0": 5,
+            "RotaryCraft:rotarycraft_item_gearunits|6": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|12",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|7": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|13",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_gearunits|10": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|14",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_gearunits|14": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|15",
+          "i": {
+            "OD|plankWood": 5,
+            "RotaryCraft:rotarycraft_item_gearunits|3": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|16",
+          "i": {
+            "minecraft:stone_slab|0": 5,
+            "RotaryCraft:rotarycraft_item_gearunits|7": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|17",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|8": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|18",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_gearunits|11": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearbox|19",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_gearunits|15": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_gearupgrade|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_borecraft|15": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 6,
+            "minecraft:glass_pane|0": 1
+          }
+        }
+      ]
+    },
+    "flywheel and advgear": {
+      "conversions": [
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_flywheel|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|11": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_flywheel|1",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|12": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_flywheel|2",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|13": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_flywheel|3",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|14": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_advgear|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|4": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|15": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_advgear|1",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_borecraft|4": 1,
+            "RotaryCraft:rotarycraft_item_borecraft|5": 1,
+            "RotaryCraft:rotarycraft_item_borecraft|8": 4,
+            "RotaryCraft:rotarycraft_item_borecraft|15": 2
+          }
+        },
+        { //No way to do bedrock one without NBT capable ProjectE
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_advgear|2",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_enginecraft|14": 1,
+            "RotaryCraft:rotarycraft_item_borecraft|11": 1,
+            "RotaryCraft:rotarycraft_item_borecraft|13": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "RotaryCraft:rotarycraft_item_advgear|3",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|3": 1,
+            "RotaryCraft:rotarycraft_item_gearunits|15": 2,
+            "RotaryCraft:rotarycraft_item_borecraft|8": 2,
+            "RotaryCraft:rotarycraft_item_borecraft|15": 4
+          }
+        }
+      ]
     }
   },
   "values": {
@@ -1837,7 +2139,7 @@
     "conversion": [
       {
         "c": 4000,
-        "o": "FLUID|rc jet fuel",
+        "o": "FLUID|rc_jet_fuel",
         "i": {
           "OD|coal": 1,
           "OD|dustBlaze": 1,
