@@ -1,0 +1,144 @@
+{
+  "groups": {
+    "Components": {
+      "conversions": [
+        {
+          "c": 3,
+          "o": "ReactorCraft:reactorcraft_item_crafting|3",
+          "i": {
+            "OD|ingotCadmium": 1,
+            "OD|ingotIndium": 1,
+            "OD|ingotSilver": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_crafting|10",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 1,
+            "OD|ingotIron": 1,
+            "ReactorCraft:reactorcraft_item_raw|6": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_crafting|13",
+          "i": {
+            "OD|coal": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_crafting|14",
+          "i": {
+            "OD|ingotUranium": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_crafting|17",
+          "i": {
+            "ReactorCraft:reactorcraft_item_crafting|16": 1
+          }
+        },
+        {
+          "c": 2,
+          "o": "ReactorCraft:reactorcraft_item_magnet|0",
+          "i": {
+            "ReactorCraft:reactorcraft_item_raw|6": 4
+          }
+        },
+        {
+          "c": 2,
+          "o": "ReactorCraft:reactorcraft_item_magnet|1",
+          "i": {
+            "ReactorCraft:reactorcraft_item_magnet|0": 4
+          }
+        },
+        {
+          "c": 2,
+          "o": "ReactorCraft:reactorcraft_item_magnet|2",
+          "i": {
+            "ReactorCraft:reactorcraft_item_magnet|1": 4
+          }
+        },
+        {
+          "c": 2,
+          "o": "ReactorCraft:reactorcraft_item_magnet|2",
+          "i": {
+            "ReactorCraft:reactorcraft_item_magnet|1": 4
+          }
+        },
+        {
+          "c": 2,
+          "o": "ReactorCraft:reactorcraft_item_magnet|3",
+          "i": {
+            "ReactorCraft:reactorcraft_item_magnet|2": 4
+          }
+        },
+        {
+          "c": 2,
+          "o": "ReactorCraft:reactorcraft_item_magnet|4",
+          "i": {
+            "ReactorCraft:reactorcraft_item_magnet|3": 4
+          }
+        },
+        {
+          "c": 2,
+          "o": "ReactorCraft:reactorcraft_item_magnet|5",
+          "i": {
+            "ReactorCraft:reactorcraft_item_magnet|4": 4
+          }
+        },
+        {
+          "c": 2,
+          "o": "ReactorCraft:reactorcraft_item_magnet|6",
+          "i": {
+            "ReactorCraft:reactorcraft_item_magnet|5": 4
+          }
+        },
+        {
+          "c": 2,
+          "o": "ReactorCraft:reactorcraft_item_magnet|7",
+          "i": {
+            "ReactorCraft:reactorcraft_item_magnet|6": 4
+          }
+        },
+        {
+          "c": 4,
+          "o": "ReactorCraft:reactorcraft_item_pellet|0",
+          "i": {
+            "ReactorCraft:reactorcraft_item_crafting|13": 4,
+            "ReactorCraft:reactorcraft_item_crafting|14": 1
+          }
+        }
+      ]
+    }
+  },
+  "values": {
+    "before": {
+      "ReactorCraft:reactorcraft_item_fluorite|0": 256,
+      "ReactorCraft:reactorcraft_item_fluorite|1": 256,
+      "ReactorCraft:reactorcraft_item_fluorite|2": 256,
+      "ReactorCraft:reactorcraft_item_fluorite|3": 256,
+      "ReactorCraft:reactorcraft_item_fluorite|4": 256,
+      "ReactorCraft:reactorcraft_item_fluorite|5": 256,
+      "ReactorCraft:reactorcraft_item_fluorite|6": 256,
+      "ReactorCraft:reactorcraft_item_fluorite|7": 256,
+      "OD|ingotUranium": 4096,
+      "OD|ingotCadmium": 512,
+      "OD|ingotIndium": 512,
+      "OD|ingotSilver": 512,
+      "ReactorCraft:reactorcraft_item_bucket|0": 778,
+      "ReactorCraft:reactorcraft_item_raw|0": 256,
+      "ReactorCraft:reactorcraft_item_raw|1": 45511,
+      "ReactorCraft:reactorcraft_item_raw|2": 4096,
+      "ReactorCraft:reactorcraft_item_raw|3": 2048,
+      "ReactorCraft:reactorcraft_item_raw|4": 32,
+      "ReactorCraft:reactorcraft_item_raw|5": 32,
+      "ReactorCraft:reactorcraft_item_raw|6": 128,
+      "ReactorCraft:reactorcraft_item_raw|7": 4096,
+      "ReactorCraft:reactorcraft_item_raw|8": 16384
+    }
+  }
+}
