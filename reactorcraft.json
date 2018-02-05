@@ -1,6 +1,6 @@
 {
   "groups": {
-    "Components": {
+    "components": {
       "conversions": [
         {
           "c": 3,
@@ -110,6 +110,427 @@
           "i": {
             "ReactorCraft:reactorcraft_item_crafting|13": 4,
             "ReactorCraft:reactorcraft_item_crafting|14": 1
+          }
+        }
+      ]
+    },
+    "reactorparts": {
+      "conversions": [
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|0",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 2,
+            "minecraft:hopper|0": 1,
+            "ReactorCraft:reactorcraft_item_crafting|0": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|1",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|5": 1,
+            "ReactorCraft:reactorcraft_item_crafting|1": 3
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|2",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "RotaryCraft:rotarycraft_item_machine|17": 2,
+            "RotaryCraft:rotarycraft_item_machine|18": 2,
+            "OD|blockGlass": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|3",
+          "i": {
+            "RotaryCraft:rotarycraft_item_borecraft|4": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|5": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|4",
+          "i": {
+            "RotaryCraft:rotarycraft_item_misccraft|5": 8,
+            "ReactorCraft:reactorcraft_item_crafting|18": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|5",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 2,
+            "RotaryCraft:rotarycraft_item_machine|17": 2,
+            "RotaryCraft:rotarycraft_item_machine|18": 1,
+            "RotaryCraft:rotarycraft_item_machine|74": 3
+          }
+        },
+        {
+          "c": 3,
+          "o": "ReactorCraft:reactorcraft_item_placer|6",
+          "i": {
+            "RotaryCraft:rotarycraft_item_machine|17": 3,
+            "OD|blockWool": 6
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|7",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 1,
+            "OD|blockGlass": 2,
+            "RotaryCraft:rotarycraft_item_enginecraft|0": 1,
+            "RotaryCraft:rotarycraft_item_machine|17": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|8",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 2,
+            "RotaryCraft:rotarycraft_item_compacts|3": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|8": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|9",
+          "i": {
+            "RotaryCraft:rotarycraft_item_borecraft|6": 1,
+            "RotaryCraft:rotarycraft_item_machine|17": 2,
+            "ReactorCraft:reactorcraft_item_crafting|2": 3
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|10",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "RotaryCraft:rotarycraft_item_machine|74": 4,
+            "minecraft:chest|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|11",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "RotaryCraft:rotarycraft_item_machine|18": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|12",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "RotaryCraft:rotarycraft_item_machine|17": 1,
+            "minecraft:iron_bars|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|13",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 1,
+            "RotaryCraft:rotarycraft_item_enginecraft|1": 1,
+            "RotaryCraft:rotarycraft_item_machine|17": 1,
+            "OD|paneGlass": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|14",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "RotaryCraft:rotarycraft_item_borecraft|6": 1,
+            "RotaryCraft:rotarycraft_item_enginecraft|15": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|15",
+          "i": {
+            "ReactorCraft:reactorcraft_item_crafting|6": 4,
+            "ReactorCraft:reactorcraft_item_crafting|7": 4,
+            "ReactorCraft:reactorcraft_item_crafting|12": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|16",
+          "i": {
+            "RotaryCraft:rotarycraft_item_machine|17": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 2,
+            "RotaryCraft:rotarycraft_item_machine|18": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|17",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "RotaryCraft:rotarycraft_item_machine|17": 3,
+            "OD|blockGlass": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|18",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4,
+            "ReactorCraft:reactorcraft_item_placer|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|19",
+          "i": {
+            "ReactorCraft:reactorcraft_item_placer|11": 1,
+            "OD|ingotIron": 4
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|20",
+          "i": {
+            "RotaryCraft:rotarycraft_item_machine|74": 4,
+            "RotaryCraft:rotarycraft_item_machine|17": 2,
+            "OD|ingotGold": 2,
+            "RotaryCraft:rotarycraft_item_enginecraft|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|21",
+          "i": {
+            "minecraft:chest|0": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|22",
+          "i": {
+            "ReactorCraft:reactorcraft_item_placer|25": 4,
+            "ReactorCraft:reactorcraft_item_crafting|5": 4
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|23",
+          "i": {
+            "ReactorCraft:reactorcraft_item_crafting|10": 4,
+            "RotaryCraft:rotarycraft_block_blastglass|0": 4
+          }
+        },
+        {
+          "c": 16,
+          "o": "ReactorCraft:reactorcraft_item_placer|24",
+          "i": {
+            "OD|blockGlass": 3,
+            "OD|hardenedClay": 6
+          }
+        },
+        {
+          "c": 16,
+          "o": "ReactorCraft:reactorcraft_item_placer|25",
+          "i": {
+            "OD|ingotGold": 6,
+            "RotaryCraft:rotarycraft_block_blastglass|0": 3
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|26",
+          "i": {
+            "Rotarycraft:rotarycraft_block_deco|0": 1,
+            "ReactorCraft:reactorcraft_item_depleted|0": 4
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|27",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|8": 1,
+            "ReactorCraft:reactorcraft_item_crafting|10": 2,
+            "ReactorCraft:reactorcraft_item_crafting|5": 2,
+            "ReactorCraft:reactorcraft_item_crafting|6": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|28",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 2,
+            "RotaryCraft:rotarycraft_item_machine|17": 3
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|29",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "minecraft:hopper|0": 2,
+            "ReactorCraft:reactorcraft_item_placer|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|30",
+          "i": {
+            "ReactorCraft:reactorcraft_item_placer|11": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|31",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|2": 3,
+            "RotaryCraft:rotarycraft_block_deco|0": 6
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|32",
+          "i": {
+            "ReactorCraft:reactorcraft_item_crafting|13": 8,
+            "RotaryCraft:rotarycraft_block_deco|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|33",
+          "i": {
+            "OD|dustRedstone": 4,
+            "ReactorCraft:reactorcraft_item_crafting|6": 1,
+            "ReactorCraft:reactorcraft_item_crafting|8": 4
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|34",
+          "i": {
+            "minecraft:redstone_torch|0": 1,
+            "ReactorCraft:reactorcraft_item_fluorite|0": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|35",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 4,
+            "OD|dustRedstone": 1,
+            "OD|glowstone": 1,
+            "RotaryCraft:rotarycraft_item_borecraft|4": 1,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|36",
+          "i": {
+            "ReactorCraft:reactorcraft_item_placer|4": 1,
+            "RotaryCraft:rotarycraft_item_misccraft|5": 8
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|37",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 6,
+            "RotaryCraft:rotarycraft_item_machine|17": 1,
+            "RotaryCraft:rotarycraft_item_enginecraft|3": 2
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|38",
+          "i": {
+            "ReactorCraft:reactorcraft_item_placer|0": 1,
+            "RotaryCraft:rotarycraft_item_compacts|11": 2,
+            "RotaryCraft:rotarycraft_item_compacts|5": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 3,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 1
+          }
+        },
+        {
+          "c": 16,
+          "o": "ReactorCraft:reactorcraft_item_placer|39",
+          "i": {
+            "ReactorCraft:reactorcraft_block_mats|0": 6,
+            "minecraft:iron_bars|0": 2,
+            "OD|blockGlass": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|40",
+          "i": {
+            "RotaryCraft:rotarycraft_item_machine|17": 4,
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 2,
+            "RotaryCraft:rotarycraft_item_enginecraft|0": 1,
+            "minecraft:iron_bars|0": 1,
+            "RotaryCraft:rotarycraft_item_machine|126": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|41",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 4,
+            "RotaryCraft:rotarycraft_item_machine|17": 2,
+            "ReactorCraft:reactorcraft_item_placer|20": 1
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|42",
+          "i": {
+            "RotaryCraft:rotarycraft_item_shaftcraft|0": 2,
+            "RotaryCraft:rotarycraft_item_shaftcraft|1": 2,
+            "ReactorCraft:reactorcraft_item_crafting|3": 2,
+            "RotaryCraft:rotarycraft_item_compacts|5": 2,
+            "RotaryCraft:rotarycraft_item_enginecraft|7": 1
+          }
+        },
+        {
+          "c": 8,
+          "o": "ReactorCraft:reactorcraft_item_placer|44",
+          "i": {
+            "OD|blockWool": 6,
+            "OD|ingotGold": 3
+          }
+        },
+        {
+          "c": 4,
+          "o": "ReactorCraft:reactorcraft_item_placer|44",
+          "i": {
+            "OD|blockWool": 6,
+            "OD|ingotCopper": 3
           }
         }
       ]
