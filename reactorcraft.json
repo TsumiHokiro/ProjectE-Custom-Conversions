@@ -111,6 +111,13 @@
             "ReactorCraft:reactorcraft_item_crafting|13": 4,
             "ReactorCraft:reactorcraft_item_crafting|14": 1
           }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_oldpellet|0",
+          "i": {
+            "ReactorCraft:reactorcraft_item_pellet|0": 1
+          }
         }
       ]
     },
@@ -361,8 +368,16 @@
           "c": 1,
           "o": "ReactorCraft:reactorcraft_item_placer|26",
           "i": {
-            "Rotarycraft:rotarycraft_block_deco|0": 1,
+            "RotaryCraft:rotarycraft_block_deco|0": 1,
             "ReactorCraft:reactorcraft_item_depleted|0": 4
+          }
+        },
+        {
+          "c": 1,
+          "o": "ReactorCraft:reactorcraft_item_placer|26",
+          "i": {
+            "RotaryCraft:rotarycraft_block_deco|0": 1,
+            "ReactorCraft:reactorcraft_item_oldpellet|0": 8
           }
         },
         {
